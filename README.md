@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mastering the Virtual Machine Offers Workshop - Labs
 This repo contains the working materials required to work on a demo VM Offer setup on Azure Marketplace as part of the Mastering the Virtual Machine Offers Workshop. It consists of Hands-on Labs and instructions to complete each module in the series.
 
@@ -16,3 +17,7 @@ Lab 2 - VM Creation
 Lab 3 - Generalize and Capture Image
 Lab 4 - Publish the Offer
 Lab 5 - Packer 
+=======
+# VM Workshop
+Content development for the VM Offers Workshop
+>>>>>>> 183b7e12ccd892794660e868e3c0482297d6cdd2
