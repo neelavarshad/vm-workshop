@@ -12,9 +12,9 @@ You will need to clone this repository in order to reuse some readily available 
 
 ## Hands-on Labs
 
-Lab 1 - Partner Center Setup
+Lab 1 - [Partner Center Setup](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab1%20-%20Partner%20Center%20Setup)
 
-Lab 2 - VM Creation
+Lab 2 - [VM Creation](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab2%20-%20VM%20Creation)
 
 Lab 3 - Generalize and Capture Image
 
