@@ -1,7 +1,7 @@
 
 # Lab 1: Partner Center Setup for a Virtual Machine Offer
 
-This lab will walk you through setting up a Virtual Machine Offer in Partner Center. You will need to ensure that you have created an account on Partner Center and have enrolled into the Marketplace Offers Program in order to be able to create Offers for the Marketplace. 
+This lab will walk you through setting up a Virtual Machine Offer in Partner Center. You will need to ensure that you have created an account in Partner Center and have enrolled into the commercial marketplace program in order to be able to create Offers in the Marketplace. 
 
 <br />
 
@@ -9,9 +9,9 @@ This lab will walk you through setting up a Virtual Machine Offer in Partner Cen
 
 <br />
 
-### Requisites before starting this lab
-1. Partner Center Account with enrollment in Marketplace Offers
-2. Access to the Azure Portal on the same tenant as is on Partner Center (Same tenancy is required to ensure you can publish images out of Compute Galleries, more on this in the later modules).
+### Prerequisites before starting this lab
+1. Partner Center Account with enrollment in the commercial marketplace program
+2. Access to the Azure Portal on the same tenant as is on Partner Center (Same tenancy is required to ensure you can publish images out of Azure Compute Galleries, more on this in the later modules).
 
 <br />
 
@@ -19,7 +19,7 @@ This lab will walk you through setting up a Virtual Machine Offer in Partner Cen
 In this section you will be creating a brand new VM Offer from scratch. This will be used for publishing the offer once the rest of your labs are completed.
 
 The following steps will create an offer on your Partner Center Portal:
-1. On the Homepage of Partner Center, look for Marketplace Offers and click that card. If you have disabled Workspaces, then it will be visible as Commercial Marketplace.
+1. On the Homepage of Partner Center, look for Marketplace Offers and click that tile. If you have disabled Workspaces, then it will be visible as Commercial Marketplace.
 2. Click the **+ New Offer** button and select **Azure Virtual Machine** from the dropdown.
 3. You will now have to enter a unique Offer ID and an Offer Alias. For the purpose of uniformity for this lab, we will set a unique string to identify resources, like so,
     - Offer ID: **vmworkshop-YOUR_UNIQUE_STRING**
@@ -71,15 +71,15 @@ This is the first time you're using the Azure portal for this class. It is recom
 <br />
 
 ### Properties
-You will now navigate to the Properties page by Selecting the Properties tab on the left.
+You will now navigate to the Properties page by selecting the Properties tab on the left.
 
 #### Categories
 
-You must select at least one category for your offer. The selected category determines where your offer will be published. It can be either Azure Marketplace or AppSource or both. For this lab we will be selecting the below configurations.
+You must select at least one category for your offer. Virtual machine offers always appear under the Compute category in Azure Marketplace. For this lab we will be selecting the below configurations.
 
 1. Click the **+ Categories** link.
-1. In the left dropdown, select **Developer Tools**.
-1. In the right dropdown, select **Developer Service**.
+1. In the left dropdown, select **Compute**.
+1. In the right dropdown, select **Application Infrastructure**.
 
 #### Legal
 We will be using the Microsoft Standard Contract for this lab. You may choose differently when you are publishing to the prod environment.
@@ -100,8 +100,8 @@ Navigate to the Offer listing page.
     > Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 1. In the **Privacy policy link**, enter the public link to the privacy policy for your company if you know it. If not, follow this link to [Microsoft's privacy policy](https://privacy.microsoft.com/privacystatement) and use that URL. 
-    >Please note that using Microsoft's privacy policy is only for the purpose of this lab and should not used for your production offer.
-1. In the **Customer Support links** section, enter your contact information (Optional)
+    >Please note that using Microsoft's privacy policy is only for the purpose of this lab and should not be used for your production offer.
+1. In the **Customer Support links** section, enter Azure support website information (Optional)
 1. In the **Partner Support Contact** section, enter your contact information.
 1. In the **Engineering Contact** section, enter your engineering contact information.
 1. In the **Cloud Solution Provider Program Contact** section, enter the appropriate contact information (Optional)
@@ -116,8 +116,8 @@ Navigate to the Offer listing page.
 
 ### Preview audience
 
-1. In the **Preview audience** section, enter the email address you use for your Azure subscription. This is the email address you will use to purchase your offer later.
-1. Enter a **Description**.
+1. In the **Preview audience** section, enter your Azure subscription Id. 
+1. Enter a **Description** (Optional).
 1. Click **Save draft**.
 
 <br>
