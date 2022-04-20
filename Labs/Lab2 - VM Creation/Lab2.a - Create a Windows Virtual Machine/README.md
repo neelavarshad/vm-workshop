@@ -44,7 +44,7 @@ At this point you will be taken to the Virtual Machine service with several blad
 1. Select the Region you are in from the dropdown menu
 1. Under Availability options, select **No infrastructure redundancy required**
 1. Select **Standard** Security type
-1. For Image, click on See all images and select **Windows Server 2019 Datacenter - Gen2**
+1. For Image, click on See all images and select **Windows Server 2019 Datacenter - Gen1**
 1. For size, click on See all sizes and select **Standard_B2ms**. This is sufficient to run this lab and will cost around $60/month, but regardless we will stop this virtual machine as soon as we generalize and capture the VM, so usage should be very low.
 
 #### Administrator Account
