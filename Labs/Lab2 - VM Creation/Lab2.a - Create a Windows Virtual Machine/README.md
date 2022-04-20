@@ -56,7 +56,7 @@ At this point you will be taken to the Virtual Machine service with several blad
 #### Inbound Port Rules
 
 1. Select the **Allowed selected ports** radio button for Public inbound ports
-1. For Select Inbound ports Select **HTTP** as well as **HTTPS**
+1. For Select Inbound ports Select **HTTP, RDP** as well as **HTTPS**
 1. Leave the rest as is and Click **Next : Disks >** 
 
 <br>
@@ -74,7 +74,7 @@ Leave the rest of the fields as is on the page and click on **Next : Networking 
 ### Networking
 #### Network interface
 1. For **Virtual network, Subnet, Public IP** keep the default values as is. This will create a new VM, Subnet and Public IP with the default variable names
-1. Ensure Select inbound ports has **HTTP** and **HTTPS** checked
+1. Ensure Select inbound ports has **HTTP, RDP** and **HTTPS** checked
 
 Leave the rest as is and click on **Next : Management >**
 
@@ -111,6 +111,20 @@ Do not change anything in this section and simply click on **Next : Advanced >**
 1. Copy **Public IP Address** from the created VM and paste it into a browser of your choice. This will show a public facing IP on the internet with a custom Welcome screen. 
 1. Once you see the custom welcome screen, you know that the post deployment script has done its job. 
 
+
+<br>
+
+### Windows Update Manually
+In this module, we will remote into the vm and install an update manually. 
+1. On your [Azure Portal](htps://portal.azure.com/#home), navigate to the VM you just created. Click on **Connect** from the tabs on the left under Settings.
+1. In the RDP blade, select **Download RDP file**. This will download a copy to your local machine. Double-click the downloaded RDP file.
+1. It will open a popup asking if you recognize the publisher. Click on **Connect**.
+1. When asked for credentials, make sure to input the username and password you created for the VM.
+1. Accept the certificate and click **Yes** when prompted.
+1. Voila! You are now inside the VM.
+1. Once the system is setup, search for **Check for Updates** in the VM and install all available updates
+
+    > Note: Update all the shown updates before going further. Failure to do so will render your publish process on Partner center with errors
 
 <br>
 
