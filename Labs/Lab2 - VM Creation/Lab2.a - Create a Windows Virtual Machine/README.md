@@ -76,13 +76,13 @@ Leave the rest of the fields as is on the page and click on **Next : Networking 
 1. For **Virtual network, Subnet, Public IP** keep the default values as is. This will create a new VM, Subnet and Public IP with the default variable names
 1. Ensure Select inbound ports has **HTTP** and **HTTPS** checked
 
-Leave the rest as is and click on **Next : Management**
+Leave the rest as is and click on **Next : Management >**
 
 <br>
 
 ### Management
 
-Do not change anything in this section and simply click on **Next : Advanced**
+Do not change anything in this section and simply click on **Next : Advanced >**
 
 <br>
 
