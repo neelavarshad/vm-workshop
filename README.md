@@ -16,7 +16,7 @@ Lab 1 - [Partner Center Setup](https://github.com/neelavarshad/vm-workshop/tree/
 
 Lab 2 - [VM Creation](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab2%20-%20VM%20Creation)
 
-Lab 3 - Generalize and Capture Image
+Lab 3 - [Generalize and Capture Image](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab3%20-%20Generalize%20and%20Capture%20Image)
 
 Lab 4 - Publish the Offer
 
