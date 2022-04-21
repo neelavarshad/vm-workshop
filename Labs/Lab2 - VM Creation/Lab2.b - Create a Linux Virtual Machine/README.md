@@ -88,11 +88,10 @@ Do not change anything in this section and simply click on **Next : Advanced >**
 
 ### Advanced
 
-#### Extensions
-1. Click on Select an extension to install
-1. From the display card, select **Custom Script For Linux** and click on **Next**
-1. For Script file, browse for the **vmworkshopsayouruniquestring** storage account, select **script** and look for the **custom_extension_linux.sh** Block blob and select it. Change the command to **sh custom_extension_linux.sh**. 
-1. Now click **Create** under the Configure Custom Script Extension blade
+#### cloud init
+1. Navigate to the custom data and cloud init section
+1. Copy the code from the custom_extension_linux.sh script in this repository and paste it as is
+
 
 1. Select **Review + create** button at the bottom of the Advanced blade
 
@@ -106,7 +105,7 @@ Do not change anything in this section and simply click on **Next : Advanced >**
 
 ### Generate New Keypair
 1. A popup will show on the screen to indicate creation of a new Key pair
-1. Select **Download Key pair** and save it locally
+1. Select **Download Key pair** and save it
 
 <br>
 
