@@ -44,7 +44,7 @@ At this point you will be taken to the Virtual Machine service with several blad
 1. Select the Region you are in from the dropdown menu
 1. Under Availability options, select **No infrastructure redundancy required**
 1. Select **Standard** Security type
-1. For Image, click on See all images and select **Ubuntu Server 20.04 LTS - Gen1**. Configure the generation from the **Configure VM Generation** link below if necessary.
+1. For Image, click on See all images and select **Ubuntu Server 20.04 LTS - Gen2**. Configure the generation from the **Configure VM Generation** link below if necessary.
 1. For size, click on See all sizes and select **Standard_B2ms**. This is sufficient to run this lab and will cost around $60/month, but regardless we will stop this virtual machine as soon as we generalize and capture the VM, so usage should be very low.
 
 #### Administrator Account
@@ -87,13 +87,24 @@ Do not change anything in this section and simply click on **Next : Advanced >**
 <br>
 
 ### Advanced
+We may use the Advanced blade to customize the VM in two ways. Firstly using Custom Script Extensions and secondly using cloud init.
+In this module we will demonstrate both, but you should choose to do only once since both paths will essentially do the same flow of changes.
 
-#### cloud init
+#### OPTION A. Using cloud init
 1. Navigate to the custom data and cloud init section
 1. Copy the code from the custom_extension_linux.sh script in this repository and paste it as is
 
+(or)
 
-1. Select **Review + create** button at the bottom of the Advanced blade
+#### OPTION B. Using Extensions
+1. Click on Select an extension to install
+1. From the display card, select **Custom Script Extension** and click on **Next**
+1. For Script file, browse for the **vmworkshopsayouruniquestring** storage account, select **script** and look for the **custom_extension_linux.sh** Block blob and select it. 
+1. Under command, modify it to **sh custom_extension_linux.sh**
+
+<br>
+
+Select **Review + create** button at the bottom of the Advanced blade
 
 <br>
 
