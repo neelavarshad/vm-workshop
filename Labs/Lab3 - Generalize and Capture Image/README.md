@@ -1,6 +1,6 @@
 # Lab 3: Generalize and Capture Image
 
-This lab will walk you through generalizinga and capturing an image
+This lab will walk you through generalizing and capturing an image
 
 <br />
 
@@ -8,7 +8,7 @@ This lab will walk you through generalizinga and capturing an image
 
 <br />
 
-### Requisites before starting these labs
+### Prerequisites before starting these labs
 1. Access to the [Azure Portal](https://portal.azure.com/#home) on the same tenant as is on Partner Center 
 1. Have an Azure Subscription in order to create and pay for usage of created resources
 

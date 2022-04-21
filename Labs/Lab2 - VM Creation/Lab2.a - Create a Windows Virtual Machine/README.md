@@ -9,7 +9,7 @@ This lab will walk you through creating a Windows based Virtual Machine on the [
 <br>
 
 ## Upload Post Deployment Script
-1. Clone the repository to access scripts in this folder
+1. Clone the repository to access files in **scripts** folder
 1. Navigate to the Homepage of [Azure Portal](https://portal.azure.com/#home) 
 1. Use the Search bar to search for **Storage Accounts** and hit enter. Select the **vmworkshopsayouruniquestring** Storage account we created in the previous lab.
 1. In the left pane, look for Data Storage and select **Containers**
