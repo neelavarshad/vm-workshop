@@ -9,7 +9,7 @@ This lab will walk you through creating a Linux based Virtual Machine on the [Az
 <br>
 
 ## Upload Post Deployment Script
-1. Clone the repository to access scripts in this folder
+1. Clone the repository to access files in **scripts** folder
 1. Navigate to the Homepage of [Azure Portal](https://portal.azure.com/#home) 
 1. Use the Search bar to search for **Storage Accounts** and hit enter. Select the **vmworkshopsayouruniquestring** Storage account we created in the previous lab.
 1. In the left pane, look for Data Storage and select **Containers**
@@ -23,7 +23,7 @@ This lab will walk you through creating a Linux based Virtual Machine on the [Az
 ## Create a Virtual Machine
 1. Navigate to the Homepage of [Azure Portal](https://portal.azure.com/#home)
 1. Click on the **+ Create a resource** button underneath Azure services
-1. Use the Search bar to search for **Virtual Machines** and hit enter. Select the Virtual Machine offered by Mucrosoft Azure Service and click on **Create**
+1. Use the Search bar to search for **Virtual Machine** and hit enter. Select the Virtual Machine offered by Mucrosoft Azure Service and click on **Create**
 
 At this point you will be taken to the Virtual Machine service with several blades for configuration.
 
@@ -55,7 +55,7 @@ At this point you will be taken to the Virtual Machine service with several blad
 
 #### Inbound Port Rules
 
-1. Select the **Allowed selected ports** radio button for Public inbound ports
+1. Select the **Allow selected ports** radio button for Public inbound ports
 1. For Select Inbound ports Select **HTTP** as well as **SSH**
 1. Leave the rest as is and Click **Next : Disks >** 
 
@@ -65,7 +65,7 @@ At this point you will be taken to the Virtual Machine service with several blad
 ### Disks
 
 #### Disk Options
-1. For OS Disk Type, select **Standard HDD (locally-redundant storage**
+1. For OS Disk Type, select **Standard HDD (locally-redundant storage)**
 
 Leave the rest of the fields as is on the page and click on **Next : Networking >**
 
@@ -97,8 +97,8 @@ In this module we will demonstrate both, but you should choose to do only once s
 (or)
 
 #### OPTION B. Using Extensions
-1. Click on Select an extension to install
-1. From the display card, select **Custom Script Extension** and click on **Next**
+1. Click on **Select an extension to install**
+1. From the display card, select **Custom Script For Linux** and click on **Next**
 1. For Script file, browse for the **vmworkshopsayouruniquestring** storage account, select **script** and look for the **custom_extension_linux.sh** Block blob and select it. 
 1. Under command, modify it to **sh custom_extension_linux.sh**
 
@@ -116,7 +116,7 @@ Select **Review + create** button at the bottom of the Advanced blade
 
 ### Generate New Keypair
 1. A popup will show on the screen to indicate creation of a new Key pair
-1. Select **Download Key pair** and save it
+1. Select **Download private key and create resource** and save it
 
 <br>
 

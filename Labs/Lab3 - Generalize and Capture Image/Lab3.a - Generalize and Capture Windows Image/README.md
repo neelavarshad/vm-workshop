@@ -30,7 +30,7 @@ In this module, we will remote into the vm and generalize the Virtual machine
     At this point, your VM will process these commands and in a few minutes will close the application on its own. Please note that the VM should NOT be restarted once it is generalized.
 
 ## Capture the Image
-In this module we will capture am image from the Generalized VM and store it in a Compute Gallery. We will also define Image definitions within the Compute Gallery for organization.
+In this module we will capture an image from the Generalized VM and store it in a Compute Gallery. We will also define Image definitions within the Compute Gallery for organization.
 
 1. Navigate to the VM on [Azure Portal](https://portal.azure.com) You will see that the VM has been stopped under VM Status
 1. Click on **Capture** from the options available on top
@@ -40,9 +40,9 @@ In this module we will capture am image from the Generalized VM and store it in 
 1. Select a subscription from the dropdown menu
 1. For Resource Group, select the same resource group we created earlier **vmworkshop-rg-YOUR_UNIQUE_STRING**.
 1. Under Instance details, select the **Yes, share it to a gallery as a VM image version** radio button
-1. Under Gallery Details, select **Create a new gallery** and give it a name
+1. Under Gallery Details, select **Create new** and give it a name
 1. For Operating system state, select the **Generalized** radio button
-1. Click the **Create new VM definition** button and give your definition a name and click **OK**
+1. Click the **Create new** for **Target VM image definition** and give your definition a name and click **OK**
 1. Give your image a version name of **0.0.1** 
 1. Lastly click **Review + Create** at the bottom. Once validation has passed, click **Create**.
 
