@@ -18,7 +18,7 @@ Lab 2 - [VM Creation](https://github.com/neelavarshad/vm-workshop/tree/main/Labs
 
 Lab 3 - [Generalize and Capture Image](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab3%20-%20Generalize%20and%20Capture%20Image)
 
-Lab 4 - Publish the Offer
+Lab 4 - [Publish the Offer](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab4%20-%20Publish%20your%20VM%20Offer)
 
-Lab 5 - Packer 
+Lab 5 - [Packer](https://github.com/neelavarshad/vm-workshop/tree/main/Packer) 
 
