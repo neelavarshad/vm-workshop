@@ -130,7 +130,7 @@ Skip this section for this first lab.
 
 ### Plan overview
 
-Skip this section for this first lab.
+Skip this section for this lab.
 
 <br>
 
