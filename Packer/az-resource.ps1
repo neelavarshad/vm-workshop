@@ -5,7 +5,7 @@ az group create --name myResourceGroup --location westus2
 az group create --name packer-rg --location westus2
 
 # Create a service principal with Contributor permissions
-az ad sp create-for-rbac --role Contributor --name az-climy2-04-29 --scopes /subscriptions/71678671-7f5f-49c4-a74c-79c7e775240a --query "{ client_id: appId, client_secret: password, tenant_id: tenant }"
+az ad sp create-for-rbac --role Contributor --name az-climy2-04-29 --scopes /subscriptions/7xxxxxxxxxxx-xxx-xxx-xxxxxxa --query "{ client_id: appId, client_secret: password, tenant_id: tenant }"
 
 # Create shared image gallery resource
 az sig create --resource-group myResourceGroup --gallery-name packergallery

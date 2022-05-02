@@ -1,10 +1,10 @@
 {
 
   "variables": {
-    "subscription_id": "71678671-7f5f-49c4-a74c-79c7e775240a",
-    "tenant_id": "67a93384-5ce3-4c3f-8cd9-a14aaf2c5362",
-    "client_id": "f21f6ae9-4d68-477f-a71a-9d24ae9b9bd8",
-    "client_secret": "e4bsyE_W-iubfwn2GldHIRo7RjrL3uQnEH",
+    "subscription_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "tenant_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "client_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "location": "westus2",
     "sig_gallery_resource_group": "",
     "sig_gallery_name": "",
@@ -16,8 +16,8 @@
   
       "client_id": "{{user `client_id`}}",
       "client_secret": "{{user `client_secret`}}",
-      "tenant_id": "67a93384-5ce3-4c3f-8cd9-a14aaf2c5362",
-      "subscription_id": "71678671-7f5f-49c4-a74c-79c7e775240a",
+      "tenant_id": "{{user `tenant_id`}}",
+      "subscription_id": "{{user `subscription_id`}}",
   
       "managed_image_resource_group_name": "myResourceGroup",
       "managed_image_name": "myImage1",
