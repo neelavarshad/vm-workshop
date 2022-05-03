@@ -19,7 +19,7 @@ In this module, we will remote into the vm and generalize the Virtual machine
 1. Accept the certificate and click **Yes** when prompted.
 1. Voila! You are now inside the VM.
 
-> At this point we want to ensure that the VM doesn not have any pending updates. Search for **Check for Updates** and install any updates if there are any pending.
+> At this point we want to ensure that the VM doesn't have any pending updates. Search for **Check for Updates** and install any updates if there are any pending.
 
 ### Generalize the Virtual Machine
 1. Open File Explorer inside the VM and navigate to C:\Windows\System32\Sysprep
@@ -30,7 +30,7 @@ In this module, we will remote into the vm and generalize the Virtual machine
     At this point, your VM will process these commands and in a few minutes will close the application on its own. Please note that the VM should NOT be restarted once it is generalized.
 
 ## Capture the Image
-In this module we will capture an image from the Generalized VM and store it in a Compute Gallery. We will also define Image definitions within the Compute Gallery for organization.
+In this module, we will capture an image from the Generalized VM and store it in a Compute Gallery. We will also define Image definitions within the Compute Gallery for organization.
 
 1. Navigate to the VM on [Azure Portal](https://portal.azure.com) You will see that the VM has been stopped under VM Status
 1. Click on **Capture** from the options available on top

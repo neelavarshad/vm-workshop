@@ -23,7 +23,7 @@ This lab will walk you through creating a Linux based Virtual Machine on the [Az
 ## Create a Virtual Machine
 1. Navigate to the Homepage of [Azure Portal](https://portal.azure.com/#home)
 1. Click on the **+ Create a resource** button underneath Azure services
-1. Use the Search bar to search for **Virtual Machine** and hit enter. Select the Virtual Machine offered by Mucrosoft Azure Service and click on **Create**
+1. Use the Search bar to search for **Virtual Machine** and hit enter. Select the Virtual Machine offered by Microsoft Azure Service and click on **Create**
 
 At this point you will be taken to the Virtual Machine service with several blades for configuration.
 

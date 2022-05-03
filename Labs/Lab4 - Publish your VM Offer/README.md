@@ -1,6 +1,6 @@
 # Lab 4: Publish your VM Offer
 
-This lab will walk you through generalizinga and capturing an image
+This lab will walk you through generalizing and capturing an image.
 
 <br />
 
@@ -9,7 +9,7 @@ This lab will walk you through generalizinga and capturing an image
 <br />
 
 ## Plan Overview
-In this lab we will complete the rest of the required setup on Partner Center to publish our offer. At this point, the only section that should need completion is Plan Overview. If you have any other sections pending completion, please refer teh previous labs. 
+In this lab, we will complete the rest of the required setup on Partner Center to publish our offer. At this point, the only section that should need completion is Plan Overview. If you have any other sections pending completion, please refer to the previous labs. 
 
 ### Permissions for Shared Image Gallery
 If your Partner Center account is the owner of the subscription hosting Azure Compute Gallery, nothing further is needed for permissions.
