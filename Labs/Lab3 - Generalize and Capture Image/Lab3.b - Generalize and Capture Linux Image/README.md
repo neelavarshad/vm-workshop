@@ -29,9 +29,9 @@ In this module, we will ssh into the vm and generalize the Virtual machine
 <br>
 
 ## Capture the Image
-In this module we will capture an image from the Generalized VM and store it in a Compute Gallery. We will also define Image definitions within the Compute Gallery for organization.
+In this module, we will capture an image from the Generalized VM and store it in a Compute Gallery. We will also define Image definitions within the Compute Gallery for organization.
 
-1. Navigate to the VM on [Azure Portal](https://portal.azure.com) You will see that the VM has been stopped under VM Status
+1. Navigate to the VM on [Azure Portal](https://portal.azure.com). You will see that the VM has been stopped under VM Status
 1. Click on **Capture** from the options available on top
 
 ### Create an Image

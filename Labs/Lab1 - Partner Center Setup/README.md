@@ -95,7 +95,7 @@ We will be using the Microsoft Standard Contract for this lab. You may choose di
 Navigate to the Offer listing page.
 
 1. In the the **Offer listing** section, for **Search results summary** enter **VM Workshop summary**.
-1. For **Short Description** abd **Description**, here is some text you may choose to copy and paste into the text box.
+1. For **Short Description** and **Description**, here is some text you may choose to copy and paste into the text box.
 
     > Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -109,7 +109,7 @@ Navigate to the Offer listing page.
 1. For the Marketplace media section you'll upload 2 images.
     1. For the **216X216 logo image,** upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "**Contoso-Logo-216x216.png**."
     1. For the **1280X720** screenshot image, upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "**Screenshots-1280x720.png**."
-    1. Add a title to the screenshot image.
+    1. Add a screenshot image caption.
 1. Click the **Save draft** button and correct any errors that be shown before moving on.
 
 <br>
