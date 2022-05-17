@@ -60,7 +60,6 @@ At this point you will be taken to the Virtual Machine service with several blad
 
 <br>
 
-
 ### Disks
 
 #### Disk Options
@@ -90,7 +89,7 @@ Do not change anything in this section and simply click on **Next : Advanced >**
 #### Extensions
 1. Click on Select an extension to install
 1. From the display card, select **Custom Script Extension** and click on **Next**
-1. For Script file, browse for the **vmworkshopsayouruniquestring** storage account, select **script** and look for the **custom_extension_windows.ps1** Block blob and select it. Lastly click **Select** at the bottom of the page.
+1. For Script file, browse for the **vmworkshopsayouruniquestring** storage account, select **script** and look for the **custom_extension_windows.ps1** Block blob and select it. Lastly click **Select** at the bottom of the page. [If you dont see storage account, please make sure it is in the same region as the VM which is being created]
 1. Now click **Create** under the Configure Custom Script Extension blade
 
 1. Select **Review + create** button at the bottom of the Advanced blade
