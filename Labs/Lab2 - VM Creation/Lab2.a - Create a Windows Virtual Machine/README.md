@@ -44,11 +44,10 @@ At this point you will be taken to the Virtual Machine service with several blad
 1. Select the Region you are in from the dropdown menu
 1. Under Availability options, select **No infrastructure redundancy required**
 1. Select **Standard** Security type
-1. For Image, click on See all images and select **Windows Server 2019 Datacenter - Gen1**
+1. For Image, click on See all images and select **Windows Server 2019 Datacenter - Gen1**. Configure the generation from the Configure VM Generation link below if necessary.
 1. For size, click on See all sizes and select **Standard_B2ms**. This is sufficient to run this lab and will cost around $60/month, but regardless we will stop this virtual machine as soon as we generalize and capture the VM, so usage should be very low.
 
 #### Administrator Account
-1. Select **Password** as authentication type
 1. Enter the username of your choice
 1. Enter a strong password of your choice 
 1. Confirm the strong password
@@ -60,7 +59,6 @@ At this point you will be taken to the Virtual Machine service with several blad
 1. Leave the rest as is and Click **Next : Disks >** 
 
 <br>
-
 
 ### Disks
 
@@ -91,7 +89,7 @@ Do not change anything in this section and simply click on **Next : Advanced >**
 #### Extensions
 1. Click on Select an extension to install
 1. From the display card, select **Custom Script Extension** and click on **Next**
-1. For Script file, browse for the **vmworkshopsayouruniquestring** storage account, select **script** and look for the **custom_extension_windows.ps1** Block blob and select it. Lastly click **Select** at the bottom of the page.
+1. For Script file, browse for the **vmworkshopsayouruniquestring** storage account, select **script** and look for the **custom_extension_windows.ps1** Block blob and select it. Lastly click **Select** at the bottom of the page. [If you dont see storage account, please make sure it is in the same region as the VM which is being created]
 1. Now click **Create** under the Configure Custom Script Extension blade
 
 1. Select **Review + create** button at the bottom of the Advanced blade

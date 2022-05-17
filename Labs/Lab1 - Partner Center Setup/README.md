@@ -45,7 +45,7 @@ This is the first time you're using the Azure portal for this class. It is recom
 
 1. Open a new tab for the [Azure portal](https://portal.azure.com) and log in.
 1. Create a Resource Group named **vmworkshop-YOUR_UNIQUE_STRING**. Please note that this is the same unique string you added while creating the offer. 
-1. In the **vmworkshop-YOUR_UNIQUE_STRING** Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it **vmworkshopsaYOUR_UNIQUE_STRING**. Note all characters are lower case for naming a storage account.
+1. In the **vmworkshop-YOUR_UNIQUE_STRING** Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it **vmworkshopsayouruniquestring **. Note all characters are lower case for naming a storage account.
 1. Once the storage account is created, browse to the storage account's overview page.
 1. In the left-hand menu, find the **Security + networking** section.
 1. In that section, find and click on the **Access keys** link.
