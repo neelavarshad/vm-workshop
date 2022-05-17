@@ -13,8 +13,9 @@ In this module, we will ssh into the vm and generalize the Virtual machine
 
 ### SSH into the Virtual Machine
 1. On your [Azure Portal](htps://portal.azure.com/#home), navigate to the VM you just created. Click on **Connect** from the tabs on the left under Settings.
-1. In the SSH blade, upload the path where the downloaded private key resides. This will generate the command to ssh into the VM. Copy this command.
-1. Open command prompt and paste this into the prompt. Type in yes when prompted to authenticate the host.
+1. In the SSH blade, paste the local path where the downloaded private key resides into the Private key path textbox. This will generate the command to ssh into the VM below. Copy this command.
+1. Example: when you paste **[C:\Users\CurrentUser\Downloads\vm_key.pem]** into textbox 3, command **ssh -i [C:\Users\CurrentUser\Downloads\vm_key.pem] [user]@[ip]** will be generated at textbox 4.
+1. Open command prompt locally and paste this copied command and press enter. Type in yes when prompted to authenticate the host.
 
 ### Generalize the VM
 1. In the SSH window, enter this command **sudo waagent –deprovision+user**
