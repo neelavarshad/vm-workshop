@@ -18,7 +18,7 @@ In this module, we will ssh into the vm and generalize the Virtual machine
 1. Open command prompt locally and paste this copied command and press enter. Type in yes when prompted to authenticate the host.
 
 ### Generalize the VM
-1. In the SSH window, enter this command **sudo waagent –deprovision+user**
+1. In the SSH window, enter this command **sudo waagent -deprovision+user**
 1. Type Y to continue (you can add the -force parameter to the previous command to avoid the confirmation step).
 1. After the command completes, enter Exit to close the SSH client.
 
