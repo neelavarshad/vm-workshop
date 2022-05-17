@@ -61,7 +61,6 @@ At this point you will be taken to the Virtual Machine service with several blad
 
 <br>
 
-
 ### Disks
 
 #### Disk Options
