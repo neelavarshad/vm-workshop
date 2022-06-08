@@ -15,8 +15,8 @@ This lab will walk you through generalizing and capturing an image
 <br />
 
 ## Lab 3.a: Create a Windows Virtual Machine
-In this [lab](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab3%20-%20Generalize%20and%20Capture%20Image/Lab3.a%20-%20Generalize%20and%20Capture%20Windows%20Image) you will generalize and capture the Windows based Virtual Machine you created in the previous lab. 
+In this [lab](/Labs/Lab3%20-%20Generalize%20and%20Capture%20Image/Lab3.a%20-%20Generalize%20and%20Capture%20Windows%20Image) you will generalize and capture the Windows based Virtual Machine you created in the previous lab. 
 
 ## Lab 3.b: Create a Linux Virtual Machine
-In this [lab](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab3%20-%20Generalize%20and%20Capture%20Image/Lab3.b%20-%20Generalize%20and%20Capture%20Linux%20Image) you will generalize and capture the Linux based Virtual Machine you created in the previous lab. 
+In this [lab](/Labs/Lab3%20-%20Generalize%20and%20Capture%20Image/Lab3.b%20-%20Generalize%20and%20Capture%20Linux%20Image) you will generalize and capture the Linux based Virtual Machine you created in the previous lab. 
 
