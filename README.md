@@ -12,13 +12,15 @@ You will need to clone this repository in order to reuse some readily available 
 
 ## Hands-on Labs
 
-Lab 1 - [Partner Center Setup](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab1%20-%20Partner%20Center%20Setup)
+Lab 1 - [Partner Center Setup](/Labs/Lab1%20-%20Partner%20Center%20Setup)
 
-Lab 2 - [VM Creation](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab2%20-%20VM%20Creation)
+Lab 2 - [VM Creation](/Labs/Lab2%20-%20VM%20Creation)
 
-Lab 3 - [Generalize and Capture Image](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab3%20-%20Generalize%20and%20Capture%20Image)
+Lab 3 - [Generalize and Capture Image](/Labs/Lab3%20-%20Generalize%20and%20Capture%20Image)
 
-Lab 4 - [Publish the Offer](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab4%20-%20Publish%20your%20VM%20Offer)
+Lab 4 - [Publish the Offer](/Labs/Lab4%20-%20Publish%20your%20VM%20Offer)
 
-Lab 5 - [Packer](https://github.com/neelavarshad/vm-workshop/tree/main/Packer) 
+Lab 5 - [Purchase your Offer](/Labs/Lab5%20-%20Purchase%20your%20Offer) 
+
+Lab 6 - [Packer](/Packer)
 
