@@ -15,9 +15,9 @@ This lab will walk you through creating a Virtual Machine on the [Azure Portal](
 <br />
 
 ## Lab 2.a: Create a Windows Virtual Machine
-In this [lab](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab2%20-%20VM%20Creation/Lab2.a%20-%20Create%20a%20Windows%20Virtual%20Machine) you will create a Windows based Virtual Machine. If you choose to go with this lab, you will have to choose the same base image labs for the next sections as well.
+In this [lab](/Labs/Lab2%20-%20VM%20Creation/Lab2.a%20-%20Create%20a%20Windows%20Virtual%20Machine) you will create a Windows based Virtual Machine. If you choose to go with this lab, you will have to choose the same base image labs for the next sections as well.
 
 ## Lab 2.b: Create a Linux Virtual Machine
-In this [lab](https://github.com/neelavarshad/vm-workshop/tree/main/Labs/Lab2%20-%20VM%20Creation/Lab2.b%20-%20Create%20a%20Linux%20Virtual%20Machine) you will create a Linux based Virtual Machine. If you choose to go with this lab, you will have to choose the same base image labs for the next sections as well.
+In this [lab](/Labs/Lab2%20-%20VM%20Creation/Lab2.b%20-%20Create%20a%20Linux%20Virtual%20Machine) you will create a Linux based Virtual Machine. If you choose to go with this lab, you will have to choose the same base image labs for the next sections as well.
 
  You will configure the size, availability considerations as well as use a post deployment script to install a web server within the same server.
